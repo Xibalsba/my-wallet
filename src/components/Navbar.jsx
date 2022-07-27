@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import MyWalletIcon from '../assets/images/my-wallet.png';
 
 export const Navbar = ({ savings }) => {
@@ -15,4 +16,8 @@ export const Navbar = ({ savings }) => {
       </div>
     </nav>
   )
+}
+
+Navbar.propTypes = {
+  savings: PropTypes.number.isRequired
 }
