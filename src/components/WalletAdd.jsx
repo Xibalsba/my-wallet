@@ -25,7 +25,6 @@ export const WalletAdd = () => {
                     <div className="p-3">
                         <select 
                              className={ inputClasses } >
-                            <option selected disabled>Choose an type</option>
                             <option>income</option>
                             <option>egress</option>
                         </select>
