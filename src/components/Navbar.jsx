@@ -1,6 +1,6 @@
 import MyWalletIcon from '../assets/images/my-wallet.png';
 
-export const Navbar = () => {
+export const Navbar = ({ savings }) => {
   return ( 
     <nav className="bg-white border-gray-300 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
@@ -10,7 +10,7 @@ export const Navbar = () => {
         </div>
 
         <div class="flex items-center">
-            <span className="mr-6 text-lg font-medium text-green-500 dark:text-white">$1,200.00</span>
+            <span className="mr-6 text-lg font-medium text-green-500 dark:text-white">{ `$${ savings }`}</span>
         </div>
       </div>
     </nav>
