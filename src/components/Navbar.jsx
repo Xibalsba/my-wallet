@@ -10,7 +10,7 @@ export const Navbar = ({ savings }) => {
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">My Wallet</span>
         </div>
 
-        <div class="flex items-center">
+        <div className="flex items-center">
             <span className="mr-6 text-lg font-medium text-green-500 dark:text-white">{ `$${ savings }`}</span>
         </div>
       </div>
